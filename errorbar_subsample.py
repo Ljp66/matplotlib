@@ -23,4 +23,5 @@ ax2.errorbar(x, y1, yerr=y1err, errorevery=(0, 6))
 ax2.errorbar(x, y2, yerr=y2err, errorevery=(3, 6))
 
 fig.suptitle("Errorbar subsampling")
+fig.savefig("errorbar_subsample.png",dpi=200)
 plt.show()
